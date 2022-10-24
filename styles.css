@@ -128,17 +128,26 @@ form fieldset input {
 	border: 1px solid black;
 }
 
+.wrap-product-tiers {
+		border: 1px solid black;
+		height: 50rem;
+}
+
 .product-tiers {
-	border: 1px solid red;
 	display: flex;
 	gap: 10px;
 	justify-content: center;
+	font-size: 1.2rem;
+
 }
 
 
 .product-tiers div {
-	width: 20%;
-
+	width: 30rem;
+	overflow:  visible;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 
@@ -149,11 +158,44 @@ form fieldset input {
 
 
 .product-tiers img {
-	width: 100%;
+	width: 90%;
 	height: 50%;
 	object-fit: cover;
+	padding: 0.5rem;
+	margin: 0 auto;
+
+
 }
 
+
+.product-tiers a {
+	border: 1px solid black;
+	width: 6rem;
+	text-align: center;
+	display: block;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+
+}
+
+
+
+footer {
+	border: 1px solid black;
+
+
+}
+
+
+footer .inner-wraper {
+	padding-right: 1rem;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	max-width: 100rem;
+	margin: 0 auto;
+}
 
 
 
