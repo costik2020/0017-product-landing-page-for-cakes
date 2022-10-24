@@ -380,5 +380,73 @@ footer .inner-wraper {
 
 
 
+@media all and (max-width: 1000px) {
+
+	.product-tiers {
+		display: flex;
+		flex-direction: column;
+
+
+	}
+
+	.wrap-product-tiers {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 60rem;
+		margin-bottom: 80rem;
+
+
+	}
+
+
+}
+
+
+@media all and (max-width: 700px) {
+	/*Style the header*/
+	#header {
+		font-size: 1rem;
+	}
+
+
+	#header #nav-bar a {
+		border-radius: 50%;
+
+		padding: 0.1rem;
+		padding-right: 0.2rem;
+		padding-top: 0.9rem;
+		padding-bottom: 0.2rem;
+
+
+
+	}
+
+
+	#header #header-img {
+		width: 2rem;
+	}
+
+	#header .company-name {
+		font-size: 2rem;
+	}
+
+	.delivery {
+		width: 100%;
+		margin: 0 auto;
+		font-size: 2rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+
+
+
+
+
+
+}
+
+
 
 
