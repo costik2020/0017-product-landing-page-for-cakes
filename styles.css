@@ -11,6 +11,9 @@ html {
 	font-size: 1.6rem;
 	display: flex;
 	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	left: 0;
 
 }
 
@@ -18,7 +21,7 @@ html {
 
 
 #header #header-img {
-	width: 10rem;
+	width: 5rem;
 }
 
 #header .company-name {
@@ -36,8 +39,6 @@ html {
 
 
 /*Style the form*/
-
-
 .form-h2 {
 	text-align: center;
 }
@@ -73,13 +74,14 @@ form fieldset input {
 
 
 
+
+
+
 /*Delivery area*/
-
-
-
 .delivery {
 	width: 50%;
 	margin: 0 auto;
+	font-size: 1.2rem;
 }
 
 
@@ -100,16 +102,19 @@ form fieldset input {
 }
 
 .delivery i {
+	border: 1px solid black;
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
 	display: block;
-	width: 20%;
+	width: 100%;
 	height: 10vh;
+	font-size: 5rem;
+	color: green;
 }
 
 .delivery h2,
 .delivery p {
-	border: 2px solid red;
+	border: 2px solid black;
 	grid-column: 2 / 5;
 	width: 100%;
 	margin: 0;
@@ -126,6 +131,7 @@ form fieldset input {
 .product-tiers {
 	border: 1px solid red;
 	display: flex;
+	gap: 10px;
 	justify-content: center;
 }
 
@@ -142,6 +148,11 @@ form fieldset input {
 
 
 
+.product-tiers img {
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+}
 
 
 
